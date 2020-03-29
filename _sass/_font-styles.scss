@@ -1,0 +1,28 @@
+html {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: $darkest-blue;
+}
+
+h1 {
+
+    font-size: 3rem;
+    margin: 0;
+
+    &.thin {
+        font-weight:200;
+    }
+
+    &.bold {
+        font-weight:600;
+    }
+
+    @media screen and (max-width:767px) {
+        font-size: 1.5rem;
+    }
+}
+
+.container-heading {
+    text-align: center;
+}
